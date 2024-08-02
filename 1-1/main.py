@@ -1,4 +1,3 @@
-# 1-1
 import sys
 import pygame
 
@@ -21,6 +20,6 @@ while True:                                         # 6
 
     screen.fill((255, 255, 255))                    # 8
     screen.blit(dino, dino_rect)                    # 9
-    # pygame.display.flip()                           # 10
-    pygame.display.update((0, 0, 350, 350))
+    pygame.display.flip()                           # 10
+    # pygame.display.update((0, 0, 350, 350))
 
